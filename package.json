@@ -1,0 +1,12 @@
+{
+  "name": "slu-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static SLU website with a Vercel serverless quote form backend.",
+  "scripts": {
+    "check": "node --check js/site.js && node --check api/send-quote.js"
+  },
+  "dependencies": {
+    "nodemailer": "^8.0.9"
+  }
+}
