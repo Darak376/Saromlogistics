@@ -1,302 +1,554 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sarom Logistics and Unloading Ltd. provides urgent warehouse and container unloading labor across Calgary.">
-  <title>Sarom Logistics and Unloading Ltd.</title>
-  <link rel="preload" href="assets/warehouse-unloading-hero.png" as="image">
-  <link rel="stylesheet" href="css/site.css">
-</head>
-<body>
-  <header class="site-header" id="top">
-    <a class="brand-identity" href="index.html" aria-label="Sarom Logistics and Unloading Ltd. home">
-      <img class="brand-logo" src="assets/slu-logo-exact.png" data-fallback-src="assets/slu-logo.png" onerror="this.onerror=null;this.src=this.dataset.fallbackSrc;" alt="SLU logo">
-      <span class="brand-name">Sarom Logistics<br>and Unloading Ltd.</span>
-    </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sarom Logistics and Unloading Ltd. provides urgent warehouse and container unloading labor across Calgary."
+    />
+    <title>Sarom Logistics and Unloading Ltd.</title>
+    <link rel="preload" href="assets/warehouse-unloading-hero.png" as="image" />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <!-- LEFT: Logo + Company Name -->
+      <a
+        class="brand-identity"
+        href="index.html"
+        aria-label="Sarom Logistics and Unloading Ltd. home"
+      >
+        <img
+          class="brand-logo"
+          src="assets/slu-logo-exact.png"
+          data-fallback-src="assets/slu-logo.png"
+          onerror="
+            this.onerror = null;
+            this.src = this.dataset.fallbackSrc;
+          "
+          alt="SLU logo"
+        />
 
-    <button class="mobile-menu-button" type="button" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false">
-      <span class="mobile-menu-lines" aria-hidden="true"></span>
-      <span class="screen-reader-text">Toggle navigation</span>
-    </button>
-
-    <nav class="primary-navigation" id="primaryNavigation" aria-label="Primary navigation">
-      <ul class="navigation-list">
-        <li><a href="services.html">Services</a></li>
-        <li><a href="industries.html">Industries</a></li>
-        <li><a href="how-it-works.html">How It Works</a></li>
-        <li><a href="results.html">Results</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-
-    <div class="header-dispatch">
-      <a class="dispatch-phone-icon" href="tel:+15876474000" aria-label="Call Sarom Logistics">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.1 2.9c.6-.5 1.5-.4 2 .2l2 2.5c.4.5.5 1.2.2 1.8l-.9 1.8c.8 1.5 2 2.8 3.5 3.6l1.9-.9c.6-.3 1.3-.2 1.8.2l2.5 2c.6.5.7 1.4.2 2l-1.2 1.5c-.8 1-2.1 1.4-3.3 1.1C10.6 17.4 6.5 13.3 5.2 8.2 4.9 7 5.3 5.7 6.3 4.9l.8-2z"/></svg>
+        <span class="brand-name">
+          Sarom Logistics<br />
+          & Unloading Ltd.
+        </span>
       </a>
-      <div class="dispatch-copy">
-        <span>24/7 Dispatch</span>
-        <a href="tel:+15876474000">+1 (587) 647-4000</a>
-      </div>
-      <a class="header-quote-button" href="contact.html#quote-form">Get a Fast Quote</a>
-    </div>
-  </header>
 
-  <main>
-    <!-- Hero follows the approved black angled panel over generated warehouse imagery. -->
-    <section class="urgent-hero" aria-labelledby="hero-title">
-      <div class="hero-background" aria-hidden="true"></div>
-      <div class="hero-dark-panel">
-        <p class="hero-alert">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 1 4 14h7l-1 9 10-15h-7l0-7z"/></svg>
-          Need labor. Fast.
-        </p>
-        <h1 id="hero-title">We Unload.<br>You <span>Deliver.</span></h1>
-        <p class="hero-summary">Urgent warehouse and container unloading labor across Calgary. Fast response. Reliable crews.</p>
+      <!-- CENTRE: Intentionally Blank -->
+      <div class="header-center"></div>
 
-        <div class="hero-metrics" aria-label="Service response metrics">
-          <article class="hero-metric">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7v6l4 2M7 2h10M5 5l-2 2M19 5l2 2"/><circle cx="12" cy="13" r="8"/></svg>
-            <div><strong>30-60 Min</strong><span>Response Time</span></div>
-          </article>
-          <article class="hero-metric">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM16 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 21a6 6 0 0 1 12 0M12 21a5 5 0 0 1 10 0"/></svg>
-            <div><strong>2-4 Hrs</strong><span>Crew Arrival</span></div>
-          </article>
-          <article class="hero-metric">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 8 4v6c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6l8-4zM8.8 12.2l2.2 2.2 4.6-5"/></svg>
-            <div><strong>100%</strong><span>Job Done Right</span></div>
-          </article>
-        </div>
-
-        <form class="hero-service-selector" action="#quote-form">
-          <label for="heroServiceSelect">What do you need help with?</label>
-          <div class="hero-selector-row">
-            <select id="heroServiceSelect" name="service">
-              <option>Select a Service</option>
-              <option>Container Unloading</option>
-              <option>Warehouse Labor Support</option>
-              <option>Receiving and Staging</option>
-              <option>Forklift Support</option>
-            </select>
-            <button type="submit">Get a Fast Quote
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </button>
-          </div>
-        </form>
-      </div>
-
-      <aside class="last-minute-card" aria-labelledby="last-minute-heading">
-        <h2 id="last-minute-heading">Last Minute Load?<br><span>We've Got You.</span></h2>
-        <ul>
-          <li>Same-day crews</li>
-          <li>No minimum hours</li>
-          <li>Fully insured</li>
-          <li>Safety first</li>
-        </ul>
-        <a href="tel:+15876474000">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.1 2.9c.6-.5 1.5-.4 2 .2l2 2.5c.4.5.5 1.2.2 1.8l-.9 1.8c.8 1.5 2 2.8 3.5 3.6l1.9-.9c.6-.3 1.3-.2 1.8.2l2.5 2c.6.5.7 1.4.2 2l-1.2 1.5c-.8 1-2.1 1.4-3.3 1.1C10.6 17.4 6.5 13.3 5.2 8.2 4.9 7 5.3 5.7 6.3 4.9l.8-2z"/></svg>
-          Call Now: +1 (587) 647-4000
+      <!-- RIGHT: Phone + Quote -->
+      <div class="header-dispatch">
+        <a
+          class="dispatch-phone-icon"
+          href="tel:+15876474000"
+          aria-label="Call Sarom Logistics"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M7.1 2.9c.6-.5 1.5-.4 2 .2l2 2.5c.4.5.5 1.2.2 1.8l-.9 1.8c.8 1.5 2 2.8 3.5 3.6l1.9-.9c.6-.3 1.3-.2 1.8.2l2.5 2c.6.5.7 1.4.2 2l-1.2 1.5c-.8 1-2.1 1.4-3.3 1.1C10.6 17.4 6.5 13.3 5.2 8.2 4.9 7 5.3 5.7 6.3 4.9l.8-2z"
+            />
+          </svg>
         </a>
-      </aside>
-    </section>
 
-    <section class="trusted-strip" aria-label="Trusted by businesses">
-      <p>Trusted by<br>businesses across Canada</p>
-      <div class="trusted-marquee" aria-hidden="true">
-        <div class="trusted-marquee-track">
-          <strong>Walmart</strong>
-          <strong>Canadian Tire</strong>
-          <strong>amazon</strong>
-          <strong>Loblaw<br><span>Companies Limited</span></strong>
-          <strong>RONA</strong>
-          <strong>Sysco</strong>
-          <strong>Walmart</strong>
-          <strong>Canadian Tire</strong>
-          <strong>amazon</strong>
-          <strong>Loblaw<br><span>Companies Limited</span></strong>
-          <strong>RONA</strong>
-          <strong>Sysco</strong>
+        <div class="dispatch-copy">
+          <a href="tel:+15876474000">+1 (587) 647-4000</a>
         </div>
+
+        <a class="header-quote-button" href="contact.html#quote-form">
+          Get a Quote
+        </a>
       </div>
-      <div class="review-summary" aria-label="Review score">
-        <span class="review-stars" aria-hidden="true">★★★★★</span>
-        <strong>4.8/5</strong>
-        <small>From 230+ Reviews</small>
-      </div>
-    </section>
+    </header>
 
-    <section class="conversion-dashboard" aria-label="Results process and quote">
-      <article class="results-panel" id="results">
-        <h2>Real Results. Real Impact.</h2>
-        <div class="before-after-module">
-          <figure class="before-after-image">
-            <span>Before</span>
-            <img src="assets/warehouse-before-backlog.png" alt="Backed-up warehouse receiving area before support">
-            <figcaption>Backlog slowing down your operation.</figcaption>
-          </figure>
-          <button class="before-after-arrow" type="button" aria-label="Before and after transition">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </button>
-          <figure class="before-after-image">
-            <span>After</span>
-            <img src="assets/warehouse-after-clean.png" alt="Clean organized warehouse after unloading support">
-            <figcaption>Fast crews. Clean space. Workflows moving.</figcaption>
-          </figure>
-        </div>
-        <div class="impact-metrics">
-          <article><span>Up to</span><strong>60%</strong><p>Faster Turnaround</p></article>
-          <article><span>Up to</span><strong>35%</strong><p>Lower Labor Costs</p></article>
-          <article><span>Up to</span><strong>0</strong><p>Missed Deadlines</p></article>
-        </div>
-      </article>
+    <main>
+      <!-- Hero follows the approved black angled panel over generated warehouse imagery. -->
+      <section class="urgent-hero" aria-labelledby="hero-title">
+        <div class="hero-background" aria-hidden="true"></div>
+        <div class="hero-dark-panel">
+          <!-- <p class="hero-alert">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13 1 4 14h7l-1 9 10-15h-7l0-7z" />
+            </svg>
+            Fast & Reliable Unloading Solutions
+          </p> -->
+          <h1 id="hero-title">We Unload.<br />You <span>Deliver.</span></h1>
+          <p class="hero-summary">
+            Professional unloading/loading support for warehouses across Calgary
+            ,Edmonton & surrounding areas.
+          </p>
 
-      <article class="process-panel" id="how-it-works">
-        <h2>How It Works</h2>
-        <ol class="process-steps">
-          <li>
-            <span class="step-number">1</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M5 4h10l4 4v12H5V4zM14 4v5h5M8 14l2 2 5-6"/></svg>
-            <div><h3>Request a Quote</h3><p>Tell us what you need and when.</p></div>
-          </li>
-          <li>
-            <span class="step-number">2</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v-1a8 8 0 0 1 16 0v1M4 13h3v6H4v-6ZM17 13h3v6h-3v-6ZM9 20h6"/></svg>
-            <div><h3>We Confirm Fast</h3><p>We respond in 30-60 minutes.</p></div>
-          </li>
-          <li>
-            <span class="step-number">3</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM16 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 21a6 6 0 0 1 12 0M12 21a5 5 0 0 1 10 0"/></svg>
-            <div><h3>Crew Dispatched</h3><p>Skilled crew arrives ready to work.</p></div>
-          </li>
-          <li>
-            <span class="step-number">4</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg>
-            <div><h3>Job Done Right</h3><p>On time. Safe. No hassle.</p></div>
-          </li>
-        </ol>
-      </article>
+          <div class="hero-metrics" aria-label="Service response metrics">
+            <article class="hero-metric">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 7v6l4 2M7 2h10M5 5l-2 2M19 5l2 2" />
+                <circle cx="12" cy="13" r="8" />
+              </svg>
+              <div><strong>Fast Response</strong></div>
+            </article>
+            <article class="hero-metric">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM16 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 21a6 6 0 0 1 12 0M12 21a5 5 0 0 1 10 0"
+                />
+              </svg>
+              <div>
+                <strong>Flexible Crews</strong>
+                <span>Built Around Your Needs</span>
+              </div>
+            </article>
+            <article class="hero-metric">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="m12 2 8 4v6c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6l8-4zM8.8 12.2l2.2 2.2 4.6-5"
+                />
+              </svg>
+              <div><strong>100%</strong><span>Job Done Right</span></div>
+            </article>
+          </div>
 
-      <article class="quote-panel" id="contact">
-        <h2>Get a Fast Quote</h2>
-        <p>The more details you share, the faster we can help.</p>
-        <form class="secure-quote-form" id="quote-form" novalidate>
-          <label class="quote-honeypot-field" aria-hidden="true">
-            <span>Leave this field empty</span>
-            <input type="text" name="website" tabindex="-1" autocomplete="off">
-          </label>
-          <div class="form-field-grid">
-            <label><span class="screen-reader-text">Full Name required</span>
-              <input type="text" name="name" maxlength="70" autocomplete="name" placeholder="Full Name *" required>
-            </label>
-            <label><span class="screen-reader-text">Company Name</span>
-              <input type="text" name="company" maxlength="80" autocomplete="organization" placeholder="Company Name">
-            </label>
-            <label><span class="screen-reader-text">Phone Number required</span>
-              <input type="tel" name="phone" maxlength="24" autocomplete="tel" placeholder="Phone Number *" required>
-            </label>
-            <label><span class="screen-reader-text">Email Address required</span>
-              <input type="email" name="email" maxlength="120" autocomplete="email" placeholder="Email Address *" required>
-            </label>
-            <label><span class="screen-reader-text">Service Needed required</span>
-              <select name="service" required>
+          <form class="hero-service-selector" action="#quote-form">
+            <label for="heroServiceSelect">What do you need help with?</label>
+            <div class="hero-selector-row">
+              <select id="heroServiceSelect" name="service">
                 <option>Select a Service</option>
-                <option>Container Unloading</option>
+                <option>Container/Trailer Unloading</option>
                 <option>Warehouse Labor Support</option>
-                <option>Receiving and Staging</option>
+                <option>Container/Trailer Loading</option>
                 <option>Forklift Support</option>
               </select>
-            </label>
-            <label><span class="screen-reader-text">Type of Work required</span>
-              <select name="workType" required>
-                <option>Select Type</option>
-                <option>Urgent Same-Day</option>
-                <option>Scheduled Shift</option>
-                <option>Recurring Support</option>
-              </select>
-            </label>
-            <label><span class="screen-reader-text">Location or City required</span>
-              <input type="text" name="city" maxlength="50" placeholder="Location / City *" required>
-            </label>
-            <label><span class="screen-reader-text">Date and Time Needed</span>
-              <input type="datetime-local" name="dateNeeded" placeholder="Date & Time Needed *">
-            </label>
+              <button type="submit">
+                Get a Quote
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <aside class="last-minute-card" aria-labelledby="last-minute-heading">
+          <h2 id="last-minute-heading">
+            Built to Handle More.<br /><span>Ready to Scale With You.</span>
+          </h2>
+          <ul>
+            <li>Scalable Workforce</li>
+            <li>Fully insured Operations</li>
+            <li>Safety-First Approach</li>
+            <li>Trained & Experienced experienced crews</li>
+            <li>Flexible Scheduling</li>
+            <li>High-Volume Capacity</li>
+          </ul>
+          <a href="tel:+15876474000">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M7.1 2.9c.6-.5 1.5-.4 2 .2l2 2.5c.4.5.5 1.2.2 1.8l-.9 1.8c.8 1.5 2 2.8 3.5 3.6l1.9-.9c.6-.3 1.3-.2 1.8.2l2.5 2c.6.5.7 1.4.2 2l-1.2 1.5c-.8 1-2.1 1.4-3.3 1.1C10.6 17.4 6.5 13.3 5.2 8.2 4.9 7 5.3 5.7 6.3 4.9l.8-2z"
+              />
+            </svg>
+            Call Now: +1 (587) 647-4000
+          </a>
+        </aside>
+      </section>
+
+      <section class="trusted-strip" aria-label="Trusted by businesses">
+        <p>Trusted by<br />businesses across Alberta</p>
+        <div class="trusted-marquee" aria-hidden="true">
+          <div class="trusted-marquee-track">
+            <strong>Home Depot</strong>
+            <strong>Peak Products</strong>
+            <strong>amazon</strong>
+            <strong>Stryder</strong>
+            <strong>Darwynn Ltd.</strong>
+            <strong>TBS international logistics</strong>
+            <strong>E&J Supply Inc.</strong>
+            <strong>E.R.Bridge Logistics</strong>
+            <strong>Brooks Transportation Services</strong>
+            <strong>CA-EX Express Ltd.</strong>
+            <strong>Home Depot</strong>
+            <strong>Peak Products</strong>
+            <strong>amazon</strong>
+            <strong>Triple Eagle Logistics</strong>
+            <strong>Stryder</strong>
+            <strong>CA-EX Express Ltd.</strong>
+            <strong>Darwynn Ltd.</strong>
+            <strong>TBS international logistics</strong>
+            <strong>E&J Supply Inc.</strong>
+            <strong>E.R.Bridge Logistics</strong>
+            <strong>Brooks Transportation Services</strong>
           </div>
-          <label><span class="screen-reader-text">Additional Details optional</span>
-            <textarea name="notes" maxlength="280" placeholder="Tell us about your load, items, access, etc."></textarea>
-          </label>
-          <p class="form-status" aria-live="polite">Your quote request will be securely sent to dispatch.</p>
-          <button type="submit">Get My Quote Now
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </button>
-          <div class="quote-preview" aria-live="polite"></div>
-        </form>
-      </article>
-    </section>
+        </div>
+        <div class="review-summary" aria-label="Review score">
+          <span class="review-stars" aria-hidden="true">★★★★★</span>
+          <strong>5/5</strong>
+          
+        </div>
+      </section>
 
-    <section class="faq-strip" aria-labelledby="faq-heading">
-      <h2 id="faq-heading">Frequently Asked Questions</h2>
-      <div class="faq-items">
-        <article class="faq-item">
-          <button class="faq-toggle" type="button" aria-expanded="false">How fast can you get a crew to my site?<span class="faq-icon">+</span></button>
-          <div class="faq-answer"><p>Most urgent requests are reviewed quickly. Confirmed response and arrival timing depends on crew availability, service type, and site location.</p></div>
+      <section
+        class="conversion-dashboard"
+        aria-label="Results process and quote"
+      >
+        <article class="results-panel" id="results">
+          <h2>Real Results. Real Impact.</h2>
+          <div class="before-after-module">
+            <figure class="before-after-image">
+              <span>Before</span>
+              <img
+                src="assets/warehouse-before-backlog.png"
+                alt="Backed-up warehouse receiving area before support"
+              />
+              <figcaption>Backlog slowing down your operation.</figcaption>
+            </figure>
+            <button
+              class="before-after-arrow"
+              type="button"
+              aria-label="Before and after transition"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </button>
+            <figure class="before-after-image">
+              <span>After</span>
+              <img
+                src="assets/warehouse-after-clean.png"
+                alt="Clean organized warehouse after unloading support"
+              />
+              <figcaption>
+                Fast crews. Clean space. Workflows moving.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="impact-metrics">
+            <article>
+              <span>Around</span><strong>60%</strong>
+              <p>Faster Turnaround</p>
+            </article>
+            <article>
+              <span>Up to</span><strong>35%</strong>
+              <p>Lower Labor Costs</p>
+            </article>
+            <article>
+              <span>Till Now</span><strong>0</strong>
+              <p>Missed Deadlines</p>
+            </article>
+          </div>
         </article>
-        <article class="faq-item">
-          <button class="faq-toggle" type="button" aria-expanded="false">Do you have a minimum number of hours?<span class="faq-icon">+</span></button>
-          <div class="faq-answer"><p>Minimums should be confirmed during quoting based on crew size, dispatch timing, and job scope.</p></div>
+
+        <article class="process-panel" id="how-it-works">
+          <h2>THE SLU ADVANTAGE</h2>
+          <ol class="process-steps">
+            <li>
+              <span class="step-number">1</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 20h16M5 4h10l4 4v12H5V4zM14 4v5h5M8 14l2 2 5-6" />
+              </svg>
+              <div>
+                <h3>High Volume Handling</h3>
+                <p>Built to handle demanding warehouse workloads.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number">2</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M4 13v-1a8 8 0 0 1 16 0v1M4 13h3v6H4v-6ZM17 13h3v6h-3v-6ZM9 20h6"
+                />
+              </svg>
+              <div>
+                <h3>Operational Versatility</h3>
+                <p>Complete solutions for diverse freight-handling needs.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number">3</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M8 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM16 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 21a6 6 0 0 1 12 0M12 21a5 5 0 0 1 10 0"
+                />
+              </svg>
+              <div>
+                <h3>Equipment Ready</h3>
+                <p>Equipped to support efficient material handling.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number">4</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" />
+                <path d="m8 12 2.5 2.5L16 9" />
+              </svg>
+              <div>
+                <h3>Peak Season Support</h3>
+                <p>Extra capacity when your business needs it most.</p>
+              </div>
+            </li>
+          </ol>
         </article>
-        <article class="faq-item">
-          <button class="faq-toggle" type="button" aria-expanded="false">What types of unloading do you handle?<span class="faq-icon">+</span></button>
-          <div class="faq-answer"><p>Container unloading, trailer unloading, warehouse labor support, receiving, staging, palletizing, and related dock support.</p></div>
+
+        <article class="quote-panel" id="contact">
+          <h2>Get a Quote</h2>
+          <p>The more details you share, the faster we can help.</p>
+          <form class="secure-quote-form" id="quote-form" novalidate>
+            <label class="quote-honeypot-field" aria-hidden="true">
+              <span>Leave this field empty</span>
+              <input
+                type="text"
+                name="website"
+                tabindex="-1"
+                autocomplete="off"
+              />
+            </label>
+            <div class="form-field-grid">
+              <label
+                ><span class="screen-reader-text">Full Name required</span>
+                <input
+                  type="text"
+                  name="name"
+                  maxlength="70"
+                  autocomplete="name"
+                  placeholder="Full Name *"
+                  required
+                />
+              </label>
+              <label
+                ><span class="screen-reader-text">Company Name</span>
+                <input
+                  type="text"
+                  name="company"
+                  maxlength="80"
+                  autocomplete="organization"
+                  placeholder="Company Name"
+                />
+              </label>
+              <label
+                ><span class="screen-reader-text">Phone Number required</span>
+                <input
+                  type="tel"
+                  name="phone"
+                  maxlength="24"
+                  autocomplete="tel"
+                  placeholder="Phone Number *"
+                  required
+                />
+              </label>
+              <label
+                ><span class="screen-reader-text">Email Address required</span>
+                <input
+                  type="email"
+                  name="email"
+                  maxlength="120"
+                  autocomplete="email"
+                  placeholder="Email Address *"
+                  required
+                />
+              </label>
+              <label
+                ><span class="screen-reader-text">Service Needed required</span>
+                <select name="service" required>
+                  <option>Select a Service</option>
+                  <option>Container Unloading</option>
+                  <option>Warehouse Labor Support</option>
+                  <option>Receiving and Staging</option>
+                  <option>Forklift Support</option>
+                </select>
+              </label>
+              <label
+                ><span class="screen-reader-text">Type of Work required</span>
+                <select name="workType" required>
+                  <option>Select Type</option>
+                  <option>Urgent Same-Day</option>
+                  <option>Scheduled Shift</option>
+                  <option>Recurring Support</option>
+                </select>
+              </label>
+              <label
+                ><span class="screen-reader-text"
+                  >Location or City required</span
+                >
+                <input
+                  type="text"
+                  name="city"
+                  maxlength="50"
+                  placeholder="Location / City *"
+                  required
+                />
+              </label>
+              <label
+                ><span class="screen-reader-text">Date and Time Needed</span>
+                <input
+                  type="datetime-local"
+                  name="dateNeeded"
+                  placeholder="Date & Time Needed *"
+                />
+              </label>
+            </div>
+            <label
+              ><span class="screen-reader-text"
+                >Additional Details optional</span
+              >
+              <textarea
+                name="notes"
+                maxlength="280"
+                placeholder="Tell us about your load, items, access, etc."
+              ></textarea>
+            </label>
+            <p class="form-status" aria-live="polite">
+              Your quote request will be securely sent to dispatch.
+            </p>
+            <button type="submit">
+              Get My Quote Now
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </button>
+            <div class="quote-preview" aria-live="polite"></div>
+          </form>
         </article>
-        <article class="faq-item">
-          <button class="faq-toggle" type="button" aria-expanded="false">Are your workers insured?<span class="faq-icon">+</span></button>
-          <div class="faq-answer"><p>The live site should include the exact insurance and safety details approved by Sarom before launch.</p></div>
+      </section>
+
+      <!-- <section class="faq-strip" aria-labelledby="faq-heading">
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+        <div class="faq-items">
+          <article class="faq-item">
+            <button class="faq-toggle" type="button" aria-expanded="false">
+              How fast can you get a crew to my site?<span class="faq-icon"
+                >+</span
+              >
+            </button>
+            <div class="faq-answer">
+              <p>
+                Most urgent requests are reviewed quickly. Confirmed response
+                and arrival timing depends on crew availability, service type,
+                and site location.
+              </p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-toggle" type="button" aria-expanded="false">
+              Do you have a minimum number of hours?<span class="faq-icon"
+                >+</span
+              >
+            </button>
+            <div class="faq-answer">
+              <p>
+                Minimums should be confirmed during quoting based on crew size,
+                dispatch timing, and job scope.
+              </p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-toggle" type="button" aria-expanded="false">
+              What types of unloading do you handle?<span class="faq-icon"
+                >+</span
+              >
+            </button>
+            <div class="faq-answer">
+              <p>
+                Container unloading, trailer unloading, warehouse labor support,
+                receiving, staging, palletizing, and related dock support.
+              </p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-toggle" type="button" aria-expanded="false">
+              Are your workers insured?<span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                The live site should include the exact insurance and safety
+                details approved by Sarom before launch.
+              </p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-toggle" type="button" aria-expanded="false">
+              Do you work on weekends and holidays?<span class="faq-icon"
+                >+</span
+              >
+            </button>
+            <div class="faq-answer">
+              <p>
+                Availability should be confirmed for each request. The page is
+                structured to support urgent dispatch inquiries.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section> -->
+
+      <section
+        class="supporting-content"
+        id="services"
+        aria-label="Service details"
+      >
+        <article>
+          <h2>Services Built for Fast-Moving Warehouses</h2>
+          <p>
+            Container/Tailer unloading, Loading, Hourly Warehouse Labor,
+            Staging, Load Sorting, Palletizing, Transloading & Forklift support
+            etc.
+          </p>
         </article>
-        <article class="faq-item">
-          <button class="faq-toggle" type="button" aria-expanded="false">Do you work on weekends and holidays?<span class="faq-icon">+</span></button>
-          <div class="faq-answer"><p>Availability should be confirmed for each request. The page is structured to support urgent dispatch inquiries.</p></div>
+        <article id="industries">
+          <h2>Industries We Support</h2>
+          <p>
+            3PLs, 4PLs Warehousing Facilities, Retail Distribution, Food &
+            Beverage etc.
+          </p>
         </article>
+        <article id="about">
+          <h2>About SLU</h2>
+          <p>
+            Sarom Logistics and Unloading Ltd. is a Calgary-based logistics
+            support company providing warehouse labor services across Alberta.
+            We are committed to helping businesses meet their operational goals
+            with fast, reliable, and flexible support.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer
+      class="sticky-dispatch-band"
+      aria-label="Immediate dispatch call to action"
+    >
+      <div class="sticky-call-copy">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M7.1 2.9c.6-.5 1.5-.4 2 .2l2 2.5c.4.5.5 1.2.2 1.8l-.9 1.8c.8 1.5 2 2.8 3.5 3.6l1.9-.9c.6-.3 1.3-.2 1.8.2l2.5 2c.6.5.7 1.4.2 2l-1.2 1.5c-.8 1-2.1 1.4-3.3 1.1C10.6 17.4 6.5 13.3 5.2 8.2 4.9 7 5.3 5.7 6.3 4.9l.8-2z"
+          />
+        </svg>
+        <div>
+          <p>Need help, Call us on</p>
+          <a href="tel:+15876474000">+1 (587) 647-4000</a>
+        </div>
       </div>
-    </section>
-
-    <section class="supporting-content" id="services" aria-label="Service details">
-      <article>
-        <h2>Services Built for Fast-Moving Warehouses</h2>
-        <p>Container unloading, warehouse labor, receiving, staging, palletizing, and forklift support for busy Calgary operations.</p>
-      </article>
-      <article id="industries">
-        <h2>Industries We Support</h2>
-        <p>3PLs, importers, retail distribution, food and beverage, manufacturers, and warehousing facilities.</p>
-      </article>
-      <article id="about">
-        <h2>About SLU</h2>
-        <p>Professional unloading and warehouse labor support focused on speed, safety, and reliable execution.</p>
-      </article>
-    </section>
-  </main>
-
-  <footer class="sticky-dispatch-band" aria-label="Immediate dispatch call to action">
-    <div class="sticky-call-copy">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.1 2.9c.6-.5 1.5-.4 2 .2l2 2.5c.4.5.5 1.2.2 1.8l-.9 1.8c.8 1.5 2 2.8 3.5 3.6l1.9-.9c.6-.3 1.3-.2 1.8.2l2.5 2c.6.5.7 1.4.2 2l-1.2 1.5c-.8 1-2.1 1.4-3.3 1.1C10.6 17.4 6.5 13.3 5.2 8.2 4.9 7 5.3 5.7 6.3 4.9l.8-2z"/></svg>
-      <div>
-        <p>Need help now? Call for immediate dispatch</p>
-        <a href="tel:+15876474000">+1 (587) 647-4000</a>
+      <a class="sticky-call-button" href="tel:+15876474000">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M7.1 2.9c.6-.5 1.5-.4 2 .2l2 2.5c.4.5.5 1.2.2 1.8l-.9 1.8c.8 1.5 2 2.8 3.5 3.6l1.9-.9c.6-.3 1.3-.2 1.8.2l2.5 2c.6.5.7 1.4.2 2l-1.2 1.5c-.8 1-2.1 1.4-3.3 1.1C10.6 17.4 6.5 13.3 5.2 8.2 4.9 7 5.3 5.7 6.3 4.9l.8-2z"
+          />
+        </svg>
+        Call Now
+      </a>
+      <div class="sticky-service-notes">
+        <span>Fast Response</span>
+        <span>Reliable Crews</span>
+        
       </div>
-    </div>
-    <a class="sticky-call-button" href="tel:+15876474000">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.1 2.9c.6-.5 1.5-.4 2 .2l2 2.5c.4.5.5 1.2.2 1.8l-.9 1.8c.8 1.5 2 2.8 3.5 3.6l1.9-.9c.6-.3 1.3-.2 1.8.2l2.5 2c.6.5.7 1.4.2 2l-1.2 1.5c-.8 1-2.1 1.4-3.3 1.1C10.6 17.4 6.5 13.3 5.2 8.2 4.9 7 5.3 5.7 6.3 4.9l.8-2z"/></svg>
-      Call Now
-    </a>
-    <div class="sticky-service-notes">
-      <span>24/7 Dispatch</span>
-      <span>Fast Response</span>
-      <span>Reliable Crews</span>
-    </div>
-  </footer>
 
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="js/site.js"></script>
-</body>
+      
+</div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/site.js"></script>
+  </body>
 </html>
