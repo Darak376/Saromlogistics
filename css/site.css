@@ -8,7 +8,8 @@
   --color-soft: #f7f7f7;
   --color-white: #ffffff;
   --font-body: Arial, Helvetica, sans-serif;
-  --font-display: Impact, "Arial Narrow", "Franklin Gothic Condensed", sans-serif;
+  --font-display:
+    Impact, "Arial Narrow", "Franklin Gothic Condensed", sans-serif;
   --page-max-width: 1536px;
   --header-height: 70px;
 }
@@ -207,7 +208,9 @@ svg {
   box-shadow: 0 5px 12px rgba(239, 29, 0, 0.18);
   font-size: 16px;
   font-weight: 900;
-  transition: transform 180ms ease, box-shadow 180ms ease;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
 }
 
 .header-quote-button:hover,
@@ -410,7 +413,7 @@ svg {
   position: absolute;
   z-index: 3;
   right: 78px;
-  top: 138px;
+  top: 45px;
   padding: 22px;
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 7px;
@@ -514,8 +517,20 @@ svg {
 
 .trusted-marquee {
   overflow: hidden;
-  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
-  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 8%,
+    #000 92%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 8%,
+    #000 92%,
+    transparent
+  );
 }
 
 .trusted-marquee-track {
@@ -1022,7 +1037,9 @@ svg {
   font-size: 19px;
   font-weight: 900;
   text-transform: uppercase;
-  transition: transform 180ms ease, box-shadow 180ms ease;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
 }
 
 .detail-page {
@@ -1126,7 +1143,9 @@ svg {
 .reveal-on-scroll {
   opacity: 0;
   transform: translateY(16px);
-  transition: opacity 520ms ease, transform 520ms ease;
+  transition:
+    opacity 520ms ease,
+    transform 520ms ease;
 }
 
 .reveal-on-scroll.is-visible {
