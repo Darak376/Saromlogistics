@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-labelledby="title desc">
+  <title id="title">SLU Logo</title>
+  <desc id="desc">Stylized SLU logo with a gray S behind red L and U letters.</desc>
+  <rect width="300" height="200" fill="#ffffff"/>
+  <text x="34" y="145" font-family="Arial Black, Arial, sans-serif" font-size="178" fill="#7b7b7b">S</text>
+  <text x="8" y="158" font-family="Arial Black, Arial, sans-serif" font-size="170" fill="#9a9a9a">L</text>
+  <text x="-8" y="148" font-family="Arial Black, Arial, sans-serif" font-size="170" fill="#d70000">L</text>
+  <text x="132" y="158" font-family="Arial Black, Arial, sans-serif" font-size="170" fill="#9a9a9a">U</text>
+  <text x="122" y="148" font-family="Arial Black, Arial, sans-serif" font-size="170" fill="#d70000">U</text>
+  <text x="260" y="192" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#111111">TM</text>
+</svg>
