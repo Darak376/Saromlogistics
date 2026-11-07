@@ -242,9 +242,8 @@ svg {
 .hero-background {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(90deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0)),
-    url("../assets/warehouse-unloading-hero.png") center right / cover no-repeat;
+  background: url("../assets/WAREHOUSE-UNLOADING-HERO1.PNG") center right /
+    cover no-repeat;
 }
 
 .hero-dark-panel {
@@ -1054,7 +1053,7 @@ svg {
   color: var(--color-white);
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.68)),
-    url("../assets/warehouse-unloading-hero.png") center / cover no-repeat;
+    url("../assets/WAREHOUSE-UNLOADING-HERO1.PNG") center / cover no-repeat;
 }
 
 .detail-hero h1 {
@@ -1547,5 +1546,111 @@ svg {
     animation-duration: 1ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 1ms !important;
+  }
+}
+
+/* Header and sticky footer email contact */
+.dispatch-copy .dispatch-phone-link {
+  font-size: 18px;
+  line-height: 1.1;
+}
+.dispatch-copy .dispatch-email-link {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-red-dark);
+  overflow-wrap: anywhere;
+}
+.dispatch-email-link:hover,
+.sticky-email-link:hover {
+  text-decoration: underline;
+}
+.sticky-service-notes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 4px;
+  min-width: 0;
+}
+.sticky-service-notes .sticky-contact-label {
+  border: 0;
+  padding: 0;
+  font-size: 11px;
+  opacity: 0.9;
+}
+.sticky-email-link {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  overflow-wrap: anywhere;
+  text-align: right;
+}
+@media (max-width: 1280px) {
+  .site-header {
+    grid-template-columns: 260px minmax(0, 1fr) auto;
+  }
+  .header-dispatch {
+    gap: 9px;
+  }
+  .dispatch-copy .dispatch-phone-link {
+    font-size: 16px;
+  }
+  .dispatch-copy .dispatch-email-link {
+    font-size: 11px;
+  }
+  .sticky-dispatch-band {
+    padding-left: 28px;
+    padding-right: 28px;
+    grid-template-columns: minmax(0, 1fr) 180px minmax(0, 1fr);
+    gap: 14px;
+  }
+  .sticky-call-copy a {
+    font-size: 20px;
+  }
+  .sticky-email-link {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1100px) {
+  .site-header {
+    grid-template-columns: 1fr auto;
+  }
+  /* Keep contact methods visible when the usual header dispatch hides. */
+  .header-dispatch {
+    display: flex;
+    grid-column: 1 / -1;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dispatch-copy {
+    white-space: normal;
+  }
+  .sticky-dispatch-band {
+    grid-template-columns: 1fr;
+  }
+  .sticky-service-notes {
+    align-items: flex-start;
+  }
+  .sticky-email-link {
+    text-align: left;
+  }
+}
+@media (max-width: 720px) {
+  .header-dispatch {
+    gap: 10px;
+  }
+  .dispatch-phone-icon {
+    width: 36px;
+    height: 36px;
+  }
+  .header-quote-button {
+    padding: 0 12px;
+    font-size: 13px;
+  }
+  .sticky-call-copy a {
+    font-size: 20px;
+  }
+  .sticky-email-link {
+    font-size: 15px;
   }
 }
