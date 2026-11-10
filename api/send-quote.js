@@ -1,6 +1,6 @@
 "use strict";
 
-const RECIPIENT_EMAIL = "jarnu.girdhar@gmail.com";
+const RECIPIENT_EMAIL = "operations@saromlogistics.ca";
 const MAX_BODY_BYTES = 8192;
 const MIN_FORM_SECONDS = 3;
 const MAX_FORM_SECONDS = 60 * 60 * 2;
