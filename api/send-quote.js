@@ -1,6 +1,6 @@
 "use strict";
 
-const RECIPIENT_EMAIL = "operations@saromlogistics.ca";
+const RECIPIENT_EMAIL = ["operations@saromlogistics.ca", "containerservices.slu@gmail.com"];
 const MAX_BODY_BYTES = 8192;
 const MIN_FORM_SECONDS = 3;
 const MAX_FORM_SECONDS = 60 * 60 * 2;
