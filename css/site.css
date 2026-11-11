@@ -242,7 +242,7 @@ svg {
 .hero-background {
   position: absolute;
   inset: 0;
-  background: url("../assets/warehouse-unloading-hero1.PNG") center right /
+  background: url("../assets/warehouse-unloading-hero1.png") center right /
     cover no-repeat;
 }
 
