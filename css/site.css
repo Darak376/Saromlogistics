@@ -1053,7 +1053,7 @@ svg {
   color: var(--color-white);
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.68)),
-    url("../assets/WAREHOUSE-UNLOADING-HERO1.PNG") center / cover no-repeat;
+    url("../assets/warehouse-unloading-hero1.png") center / cover no-repeat;
 }
 
 .detail-hero h1 {
